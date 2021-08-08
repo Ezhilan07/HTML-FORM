@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+    body{
+      width: 100%;
+      padding: 20px;
+      border: 5px solid #000000;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 15px;
+      resize: vertical
+
+        }
+  form{
+    background:#E0FFFF;
+  }
+  h1{
+    text-align: center;
+  }
+</style>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+    <h1>CONTACT  DETAILS</h1>
+    <form class="details" action="forms.html">
+    <p> <h3> <label for="fname">FIRST NAME:</h3></label>
+    <input type="text" id="fname"name="FIRST NAME" placeholder="Your Sweet name..">
+    <h3><label for="fname">LAST NAME:</h3></label>
+  <input type="text" id="lname"name="LAST NAME" placeholder="Your Sweet name..">
+</p>
+  <p><h3><label for="fname">CONTACT  NUMBER: </h3></label>
+<input type="text" id="cnum"name="contact number" placeholder="+91">
+</p>
+<p><h3><label for="mail"> E-MAIL ADRESS: </h3></label>
+  <input type="text" id="mail"name="E-MAIL address" placeholder="ENTER YOUR MAIL ADDRESS">
+</p>
+<p><h3> Select Gender : </h3>
+<input type="radio" name="Gender"/><label> Male </label>
+<input type="radio" name="Gender"/><label> Female </label>
+<input type="radio" name="Gender"/><label> Prefer Not To Say </label>
+</p>
+<p> <h3>Date of Birth: </h3><input type="date"></p>
+  <p><h3><label for="con">COUNTRY: </h3></label>
+<select name="country" id="country">
+<option value="india">INDIA</option>
+<option value="america">AMERICA</option>
+<option value="singapore">SINGAPORE</option>
+<option value="parris">PARRIS</option>
+</select>
+</p>
+ <p> <h3><label for="edu">EDUCTIONAL QUALIFICATIONS: </h3></label>
+   <label><h3> Bachelor of Engineering:</h3></label>
+   <select>
+   <option>Mining Engineering</option>
+   <option>Mechanical Engineering</option>
+   <option>Computer Science Engineering</option>
+   <option>Megatronics Engineering</option>
+   </select>
+<label><h3>Diploma:</h3></label>
+<select>
+  <option>Mining </option>
+  <option>Mechanical</option>
+  <option>Computer Science </option>
+  <option>Megatronics </option>
+</select>
+</p>
+<p>
+  <h3> <label for="ycom">Year of Completion:</h3></label>
+ <input type="year" id="ycom"name="year of Completion:">
+</p>
+ <p><h3><label for="wexp">Work Experience:</h3></label>
+ <textarea id="wexp"name="Work Experience" placeholder="When & Where..">
+ </textarea>
+</p>
+  <p> <input type="submit" value="Submit"> </p>
+
+    </form>
+
+  </body>
+</html>
